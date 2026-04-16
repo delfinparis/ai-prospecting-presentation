@@ -121,6 +121,26 @@ When I call your name during a query, lean in. The rest of the time, still pay a
 
 ---
 
+### SLIDE 5a — What This Talk Is NOT
+**VISUAL:** Clean text, left-aligned, with strikethrough on each "not" line:
+> ~~Writing listing descriptions~~
+> ~~Social media captions~~
+> ~~Chatbots on your website~~
+> ~~Email templates~~
+> ~~Market reports~~
+>
+> **This talk is about one thing:**
+> **Finding your next client.**
+>
+> *(tapthis.co already has 570 prompts for all that other stuff)*
+
+**SAY:** "Quick expectation set. If you came here hoping I'd show you how to write a better listing description with AI -- I'm not going to do that. If you want social media captions, email templates, market reports -- I already built all of those. They're on tapthis.co. There are 570 of them. Go get them after the talk. They're free. This talk is about one thing only: finding your next client. WHO to talk to. WHAT to say. That's it. Everything I show you in the next 35 minutes ends with a name, a reason, and an opening line. Not a paragraph of marketing copy. A name."
+
+**DO:** The strikethrough animation (if your slide tool supports it) is a nice visual -- each line appears then gets struck through. But static text works fine. Quick and clean.
+**TIME:** 06:00 / 07:00
+
+---
+
 ## HERO #1 — PRE-LISTING INTELLIGENCE DOSSIER — 5 MIN
 
 ---
@@ -423,6 +443,24 @@ That's a second call list, for a different future, from the same database, in 30
 
 **DO:** This demo does double duty as the CTA lead-in. Rehearsed.
 **TIME:** 29:00 / 35:00
+
+---
+
+## AUDIENCE RESULTS MOMENT — 1 MIN (unscripted)
+
+---
+
+### SLIDE 24a — Did Anyone Run One During the Talk?
+**VISUAL:** No slide needed. Stay on the last Hero #5 output or go to a blank screen.
+
+**SAY:** "Before I wrap up -- I want to try something. Did anyone in this room actually run one of these queries during the talk? On your phone, on your laptop, right now? Raise your hand if you tried one."
+
+*(Hands go up. If zero hands, skip and move to Slide 25. If at least one hand:)*
+
+"Which one did you run? ... [Let them answer.] ... What did you get? ... [Let them share one result.] ... That took you how long? ... [They'll say 2-3 minutes.] ... And you did it sitting in a conference room listening to me talk. That's the whole point. This is not a someday tool. This is a right-now tool."
+
+**DO:** This cannot be rehearsed. Do NOT force it. If no hands, move on. If hands go up, let the room do the work -- you become the moderator for 60 seconds. The social proof of a peer saying "I just got a call list in 90 seconds" is worth more than anything you can say.
+**TIME:** 35:00 / 36:00
 
 ---
 
