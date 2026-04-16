@@ -189,21 +189,26 @@ Do every step on this list. Do not skip. Do not assume. The worst moment in a li
    Entity Name: DJP3 Consulting Inc
    Entity Type: Inc (Illinois corporation)
    State: Illinois
-   Property Address: [leave blank or use D.J.'s business address if appropriate]
+   Property Address: N/A
    Assessed Value: N/A
    Year Acquired: N/A
    ```
-4. **Do not press enter.**
+4. **Have the SOS screenshot ready on your desktop.** Before the talk, go to apps.ilsos.gov/businessentitysearch/, search "DJP3 Consulting", screenshot the full results page showing officers/registered agent/status. Save as `djp3-sos-filing.png` on the desktop. This screenshot is the fuel for Step 2 of the demo.
+5. **Do not press enter.**
 
-### On-stage paste/click sequence
+### On-stage paste/click sequence (TWO-STEP DEMO)
 1. Cmd+Tab to Claude.
 2. Deliver the meta-framing line: *"I'm going to unmask MY OWN business entity. Live. In front of all of you. Because I would never put a stranger's name on this screen without their written consent."*
-3. Press **Enter**.
-4. While Claude runs the trace (~60–90 sec — this is the longest of the five demos because it's genuinely doing research): narrate the steps as they appear. *"Watch — Illinois Secretary of State. Formation filing. Annual report. LinkedIn cross-reference…"*
-5. When output lands, scroll to the Decision-Maker Name row.
-6. Deliver the comedy beat: *"Yes, that's me, hi."* Pause. Let the laugh land.
-7. Read the portfolio signal column (does Claude find any other entities tied to you?)
-8. Read the archetype column.
+3. Press **Enter** (Step 1 — web search phase).
+4. While Claude runs (~30–60 sec): *"Claude is searching the open web for DJP3 Consulting Inc. It's going to LinkedIn, it's going to public websites. Watch what it finds."*
+5. When the initial output lands (Claude will likely surface the D.J. Paris connection via LinkedIn/Keeping It Real but will NOT have SOS filing data), say: *"Now here's the real-world workflow. The Secretary of State database is a portal that AI can't search directly yet. So I pulled the filing myself in 30 seconds. Watch."*
+6. **Drag `djp3-sos-filing.png` from your desktop into the Claude conversation.** Add the follow-up message: *"Here is the Illinois SOS filing for this entity. Combine this with what you already found and produce the full output table."*
+7. Press **Enter** (Step 2 — SOS enrichment phase).
+8. While Claude processes (~20–30 sec): *"Two steps. Step one, Claude searches the web. Step two, you give it the state record. Thirty seconds of your time, ninety seconds of Claude's time."*
+9. When full output lands, scroll to the Decision-Maker Name row.
+10. Deliver the comedy beat: *"Yes, that's me, hi."* Pause. Let the laugh land.
+11. Read the portfolio signal column.
+12. Read the archetype column.
 9. Read the suggested opener out loud, verbatim.
 10. Cmd+Tab back to slide 21.
 

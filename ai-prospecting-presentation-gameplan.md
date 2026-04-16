@@ -123,7 +123,7 @@ ROLE:
 You are a top-producing real estate coach who specializes in database reactivation. You have seen thousands of agent CRMs. Your job is to tell an agent which 10 people to call this week — and why — based entirely on their database.
 
 CONTEXT:
-Attached is my CRM export as a CSV. Columns: name, phone, email, last_contact_date, source, tags, freeform_notes, city, year_purchased, purchase_price, estimated_current_value, birthday, life_event_notes. There are [N] contacts. I have 60 minutes of call time this week and I need to spend it on the 10 highest-probability conversations.
+Today's date is [INSERT TODAY'S DATE, e.g., April 16, 2026]. Attached is my CRM export as a CSV. Columns: name, phone, email, last_contact_date, source, tags, freeform_notes, city, year_purchased, purchase_price, estimated_current_value, birthday, life_event_notes. There are [N] contacts. I have 60 minutes of call time this week and I need to spend it on the 10 highest-probability conversations.
 
 TASK:
 Score every contact 1–100 on probability of transacting a real estate deal (buy, sell, or refer) in the next 6 months. Then return the top 10 as a prioritized call list.
@@ -131,7 +131,7 @@ Score every contact 1–100 on probability of transacting a real estate deal (bu
 SCORING WEIGHTS (apply all, then combine):
 1. Years in home: 5–9 years = peak sell probability. Under 2 or over 15 = lower. Weight: 25%.
 2. Equity position: estimated_current_value minus purchase_price, as a percent. >40% equity = high. Weight: 20%.
-3. Life-event signals in notes: baby, divorce, marriage, promotion, retire, empty nest, relocation, new job, illness, inheritance, aging parent. Any hit = major boost. Weight: 25%.
+3. Life-event signals in notes: baby, divorce, marriage, promotion, retire, empty nest, relocation, new job, illness, inheritance, aging parent. Also detect implied move or transaction signals beyond this keyword list — space complaints ("too small," "need more room"), commute complaints, investment intent, job relocation, renovation frustration. Any hit = major boost. Weight: 25%.
 4. Recency decay: not touched in 120+ days = penalty, UNLESS a life-event signal overrides. Weight: 10%.
 5. Past referral behavior: anyone who's ever sent a referral gets a multiplier. Weight: 10%.
 6. Freeform notes richness: contacts with rich personal notes are easier to open a real conversation with. Weight: 10%.

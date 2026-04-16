@@ -66,6 +66,28 @@ Live demos are marked **[DEMO BREAK]** with a full switch to Claude. All demos s
 
 ---
 
+### SLIDE 3a — The Before/After (what you're doing wrong vs. what the pros do)
+**VISUAL:** Split screen. Left side labeled **"What 99% of agents type:"** in red. Right side labeled **"What the top 1% type:"** in green.
+
+Left (red):
+> *"Write me a listing description for a 3-bed 2-bath in Lincoln Park"*
+
+Right (green):
+> *"ROLE: You are a senior real estate strategist...*
+> *CONTEXT: I have a listing appointment tomorrow...*
+> *TASK: Build a one-page pre-listing dossier...*
+> *CONSTRAINTS: Only publicly available sources...*
+> *RULES: Lead with the single most important insight...*
+> *EXPECTED OUTPUT: A one-page brief in this structure..."*
+> *(truncated — the full query fills the page)*
+
+**SAY:** "Here's the gap. Left side — that's what most agents are typing. 'Write me a listing description.' It's ten words. It gets a ten-word answer. Right side — that's what the agents who are actually getting results from AI are typing. It's a hundred and fifty words. It has a role, a context, a task, constraints, rules, and an expected output. Six pieces. That structure is the entire secret of this talk. Every query I'm about to show you has those six pieces. If you remember nothing else, remember this: **the quality of your AI output is directly proportional to the specificity of your input.** Short question, short answer. Detailed question, detailed answer. The queries I'm about to show you are detailed. That's why they work."
+
+**DO:** Let the visual contrast sit for 3 full seconds before speaking. The side-by-side does the work.
+**TIME:** 03:00 / 04:00
+
+---
+
 ### SLIDE 4 — What You're Getting (the agenda)
 **VISUAL:** Five numbered boxes, no prompts visible yet:
 > 1. Pre-Listing Intelligence Dossier
@@ -216,6 +238,26 @@ That's a second call list, for a different future, from the same database, in 30
 
 ---
 
+### SLIDE 13a — Audience Interaction: Export Your CRM Right Now
+**VISUAL:** A simple instruction slide:
+> **Pull out your phone.**
+> **Open your CRM.**
+> **Google: "[your CRM name] export contacts CSV"**
+> **Do it right now. I'll wait.**
+>
+> *Follow Up Boss / KvCORE / Chime / LionDesk / Wise Agent / BoomTown / Sierra Interactive / Google Contacts / iPhone Contacts*
+
+**SAY:** "OK. Before I go to query three, we're going to do something. Pull out your phone. Right now. I'm serious — phone out. Open your CRM app. If you use Follow Up Boss, KvCORE, Chime, LionDesk, Wise Agent, whatever — open it. Now Google '[your CRM name] export contacts CSV.' Every CRM has an export button somewhere, and you need that CSV file to run query number two on Monday morning. If you don't export it now, you're going to forget. So do it right now. I'll give you 30 seconds."
+
+*(Actually wait 30 seconds. Walk the stage slowly. Do not fill the silence. Let the room fumble with their phones.)*
+
+"If you got it, screenshot the page you're on and finish when you get home. If your CRM is your iPhone contacts, that's fine — you can paste those in manually. The point is: the CSV is the fuel. Without it, query number two doesn't work. With it, you have your Monday morning call list in four minutes."
+
+**DO:** This is a deliberate pace break after 10 minutes of demos. It re-engages the room physically (phones out), it solves the CRM-export problem proactively (many agents don't know how to export), and it sets up Hero #3 with fresh energy. Do NOT skip this slide if you're running tight on time — cut something else instead. The room needs this breath.
+**TIME:** 16:00 / 17:00
+
+---
+
 ## HERO #3 — GHOST NOTES REACTIVATION — 5 MIN
 
 ---
@@ -298,13 +340,27 @@ That's a second call list, for a different future, from the same database, in 30
 ### SLIDE 20 — [DEMO BREAK] Live Business Entity Unmasking Demo
 **VISUAL:** Switch to Claude. Pre-loaded with the query and the input: **DJP3 Consulting Inc** (D.J.'s own Illinois corporation). The query has been generalized to handle LLCs *and* Incs — same trace logic, same Secretary of State source.
 
-**SAY:** "OK, here's where I do something I would never do to anyone else in this room. I'm going to unmask MY OWN business entity. Live. In front of all of you. The entity is called DJP3 Consulting Inc. It's an Illinois corporation that I own. I'm using my own entity for one reason — and I want you to hear me say this — because I would never put a stranger's name on this screen without their written consent. Even if the information is technically public. So watch this happen to me, and then in your head, replace 'DJP3 Consulting Inc' with the LLC name you saw on a tax record in your farm last week. Same query. Same trace. Same human at the end."
+**SAY:** "OK, here's where I do something I would never do to anyone else in this room. I'm going to unmask MY OWN business entity. Live. In front of all of you. The entity is called DJP3 Consulting Inc. It's an Illinois corporation that I own. I'm using my own entity for one reason — and I want you to hear me say this — because I would never put a stranger's name on this screen without their written consent. Even if the information is technically public. So watch this happen to me, and then in your head, replace 'DJP3 Consulting Inc' with the LLC name you saw on a tax record in your farm last week."
 
-*(Run the query. Claude searches Illinois Secretary of State business entity database, pulls the corporation's filings, finds the registered agent and officer name, cross-references LinkedIn and public web.)*
+*(STEP 1: Run the initial query. Claude will search the web for DJP3 Consulting Inc. It will likely find references linking DJP3 to D.J. Paris via LinkedIn, Keeping It Real, Kale Realty. However, it will NOT be able to directly access the Illinois SOS dynamic database.)*
 
-"Watch what just happened. Claude searched the Illinois Secretary of State business entity portal — same portal, by the way, that returns LLCs and corporations and any other registered entity, so this query works whether you're chasing 'Blue Sky Holdings LLC' or 'Capital Partners Inc.' It pulled the formation filing. It found the most recent annual report. It surfaced a human name — yes, that's me, hi — and then it went to LinkedIn, found my profile, found Kale Realty, found Keeping It Real, and built a one-paragraph dossier on the human behind the entity. Then the portfolio column — does this person own other entities? — and finally the opener. One sentence. Conversational. Doesn't reveal we know everything. 'Saw you registered DJP3 last year — I work with a few business owners in Chicago and wanted to introduce myself.' That is a 100% legitimate opening line to a 100% legitimate potential client that you didn't know existed 90 seconds ago. And the only thing different about running this on a stranger in your farm is that you would never do it on stage. You would do it at your desk, with one name, on a Tuesday morning, before you wrote a letter."
+"Now watch — Claude is searching. It's going to LinkedIn, it's going to public websites. And it's already finding connections. But here's the thing I want to show you. The Secretary of State database — where the actual officer filings live — is a portal that AI can't search directly yet. So here's the real-world workflow."
 
-**DO:** ABSOLUTELY REHEARSED. Run the query 5+ times in advance to confirm Claude consistently surfaces D.J. as the officer of DJP3 Consulting Inc. Have the output screenshotted as a backup slide in case Claude hangs or the SOS portal is slow. The "yes, that's me, hi" moment is comedy — let it land with a beat.
+*(STEP 2: Paste a pre-taken screenshot of the actual Illinois SOS filing for DJP3 Consulting Inc into the Claude conversation as an image. This screenshot — taken during rehearsal — shows the formation date, officers, registered agent, and status.)*
+
+"I pulled this Secretary of State filing in about 30 seconds from the Illinois SOS website. Now I'm dropping it into Claude as an image and asking it to combine this with everything it already found online."
+
+*(Claude processes the screenshot + web findings. Produces the full table: entity name, decision-maker name, confidence, how found, portfolio signal, archetype, opener.)*
+
+"And there it is. Claude combined the state filing with the web search and produced a full profile. The human behind the entity. Yes, that's me, hi."
+
+*(Pause for laugh.)*
+
+"Notice what just happened — two steps. Step one: Claude searches the open web. Step two: you give it the state record. The whole thing took about two minutes. In real life, you'd go to your state's Secretary of State website, type in the LLC name, screenshot the filing, and drop it into Claude. That's the workflow. Thirty seconds of your time, ninety seconds of Claude's time, and you have a name, a LinkedIn, a portfolio signal, and an opening line for an investor you didn't know existed yesterday."
+
+**DO:** This is now a TWO-STEP demo, which is actually a stronger teaching moment than a one-step magic trick. It shows the audience that AI is a tool in a workflow, not a magic oracle. The "yes, that's me, hi" comedy beat still lands. REHEARSE THE IMAGE PASTE — know exactly where the screenshot lives on your desktop and how long the drag-and-drop takes. Have a backup screenshot slide ready.
+
+**CRITICAL PRE-WORK:** Before the talk, go to apps.ilsos.gov/businessentitysearch/, search "DJP3 Consulting", screenshot the full results page showing officers/registered agent/status. Save to desktop as "djp3-sos-filing.png". Verify it shows your name clearly. This screenshot is the fuel for step 2.
 **TIME:** 23:00 / 26:00
 
 ---
