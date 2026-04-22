@@ -254,6 +254,57 @@ Link below. Or not. Either way — glad you're here.
 
 ---
 
+## OUT-OF-BAND — 48-HOUR FEEDBACK EMAIL (triggered per prompt copy)
+
+**Trigger:** 48 hours after any user with a captured email copies a prompt. Fires once per user per prompt (dedupe by `user_id + prompt_id`).
+**Data source:** The inline FeedbackWidget also captures 👍/👎 in real time — this email is for users who didn't click the widget OR for adding a comment.
+**Why it matters:** Builds your "most effective prompts" ranking, generates testimonial raw material, and tells you which prompts are quietly broken.
+
+### Subject line A/B options
+- "Quick question about that prompt you grabbed"
+- "Did [PROMPT_TITLE] actually work?"
+- "Two days later — any win?"
+
+### Body
+
+Hey —
+
+Two days ago you copied **[PROMPT_TITLE]** from tapthis.co.
+
+One question: did it work?
+
+👍 [Yes, got a result I used]
+🟡 [Meh, output was okay]
+👎 [No, didn't fit my situation]
+
+*(Each button is a trackable link — one click logs the response, no form to fill out.)*
+
+If you have 10 seconds, hit reply and tell me WHY. Two common patterns I see:
+
+- "It was close but the tone was off" → there's usually a constraint tweak that fixes it
+- "It gave me too much — I needed one tight paragraph" → try the [QuickStart] version if the prompt has one
+
+Your answer goes straight to me. Every reply shapes how I tune the library.
+
+— D.J.
+
+*P.S. If the prompt worked — post it. I read every mention on Instagram @delfin.paris.*
+
+### Technical implementation
+
+1. Every successful `executeCopy` on tapthis.co pushes an event to your tracking backend with `{email, prompt_id, prompt_title, timestamp}`.
+2. Cron job (or your email platform's delay node) queues a 48-hour-delayed send per event.
+3. Before send, check if the user has already responded via the inline FeedbackWidget (stored in `feedback_given_v1` localStorage — or better, a server-side table). If yes, skip.
+4. The 👍/🟡/👎 links are tracking URLs (`tapthis.co/api/feedback?prompt_id=X&rating=up`) that log the response and redirect to a "thanks" page.
+
+### What to do with the data
+
+- **Weekly:** pull the top 10 most-👍 prompts — that's your "Top 10 This Week" curation auto-feeding the home page.
+- **Monthly:** pull the top 5 most-👎 prompts — that's your "needs rewriting" list.
+- **Quarterly:** pull every reply-with-comment for testimonials and case studies.
+
+---
+
 ## SETUP NOTES FOR YOUR EMAIL PLATFORM
 
 1. **Segment on capture.** When `/api/capture-email` fires, it sends `{email, level}`. Your email platform should store `level` as a custom field and route Email 1 accordingly.
